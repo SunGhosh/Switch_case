@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int ch;
+    printf("MENU\n1.PIZZA 2.BURGER 3.PASTA 4.FRENCH FRIES 5.SANDWICH\n");
+    printf("ENTER CHOICE");
+    scanf("%d",&ch);
+    switch(ch)
+    {
+    	  case 1:printf("FOOD ITEM-PIZZA\nPRICE-239");
+    	       break;
+        case 2:printf("FOOD ITEM-BURGER\nPRICE-129");
+    	       break;
+        case 3:printf("FOOD ITEM-PASTA\nPRICE-179");
+    	       break;
+        case 4:printf("FOOD ITEM-FRENCH FRIES\nPRICE-99");
+    	       break;
+        case 5:printf("FOOD ITEM-SANDWICH\nPRICE-149");
+    	       break;
+    	default:printf("WRONG CHOICE"); 	
+      return 1;
+	}
+}
